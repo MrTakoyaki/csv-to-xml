@@ -1,0 +1,17 @@
+2021-05-26 12:23:49 INFO  Aspect:25 - method name:UploadFile
+2021-05-26 12:23:49 INFO  Aspect:29 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@30186293
+2021-05-26 12:23:49 INFO  Aspect:25 - method name:UploadFile
+2021-05-26 12:23:49 INFO  Aspect:29 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@30186293
+2021-05-26 12:23:49 INFO  Aspect:25 - method name:transferFile
+2021-05-26 12:23:49 INFO  Aspect:29 - D:\democsv\upload\測試.csv
+2021-05-26 12:23:49 INFO  Aspect:25 - method name:UploadFile
+2021-05-26 12:23:49 INFO  Aspect:29 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@30186293
+2021-05-26 12:23:49 INFO  Aspect:25 - method name:csvJson
+2021-05-26 12:23:49 INFO  Aspect:29 - D:\democsv\upload\測試.csv
+2021-05-26 12:23:49 INFO  Aspect:25 - method name:DeleteFile
+2021-05-26 12:23:49 INFO  Aspect:29 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@30186293
+2021-05-26 12:23:50 INFO  Aspect:25 - method name:listFile
+2021-05-26 12:23:51 INFO  Aspect:25 - method name:DownloadFile
+2021-05-26 12:23:51 INFO  Aspect:29 - 測試.xml
+2021-05-26 12:23:51 INFO  Aspect:25 - method name:DownloadFile
+2021-05-26 12:23:51 INFO  Aspect:29 - 測試.xml
