@@ -12,14 +12,15 @@ import org.springframework.stereotype.Component;
 @Component
 @org.aspectj.lang.annotation.Aspect
 public class Aspect {
-    private static final Logger logger = Logger.getLogger(Aspect.class);
-
     @Pointcut("execution(* com.example.demo.Service..*(..))")
     public void ServicePointcut() {
     }
 
+
+
     @Before("ServicePointcut()")
     public void before(JoinPoint joinPoint) {
+        Logger logger = Logger.getLogger(joinPoint.getTarget().getClass().getName());
         System.out.println("=====Service方法開始=====");
         System.out.println("method name:" + getMethodName(joinPoint));
         logger.info("method name:" + getMethodName(joinPoint));

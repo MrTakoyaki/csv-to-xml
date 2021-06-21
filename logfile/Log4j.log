@@ -15,3 +15,304 @@
 2021-05-26 12:23:51 INFO  Aspect:29 - 測試.xml
 2021-05-26 12:23:51 INFO  Aspect:25 - method name:DownloadFile
 2021-05-26 12:23:51 INFO  Aspect:29 - 測試.xml
+2021-06-21 10:00:57 INFO  Aspect:25 - method name:UploadFile
+2021-06-21 10:00:57 INFO  Aspect:29 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e6fbdd7
+2021-06-21 10:00:57 INFO  Aspect:25 - method name:UploadFile
+2021-06-21 10:00:57 INFO  Aspect:29 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e6fbdd7
+2021-06-21 10:00:57 INFO  Aspect:25 - method name:transferFile
+2021-06-21 10:00:57 INFO  Aspect:29 - D:\democsv\upload\addresses.csv
+2021-06-21 10:00:57 INFO  Aspect:25 - method name:UploadFile
+2021-06-21 10:00:57 INFO  Aspect:29 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e6fbdd7
+2021-06-21 10:00:57 INFO  Aspect:25 - method name:csvJson
+2021-06-21 10:00:57 INFO  Aspect:29 - D:\democsv\upload\addresses.csv
+2021-06-21 10:00:57 INFO  Aspect:25 - method name:DeleteFile
+2021-06-21 10:00:57 INFO  Aspect:29 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e6fbdd7
+2021-06-21 10:00:57 INFO  Aspect:25 - method name:listFile
+2021-06-21 10:01:00 INFO  Aspect:25 - method name:DownloadFile
+2021-06-21 10:01:00 INFO  Aspect:29 - addresses.xml
+2021-06-21 10:01:00 INFO  Aspect:25 - method name:DownloadFile
+2021-06-21 10:01:00 INFO  Aspect:29 - addresses.xml
+2021-06-21 10:32:39 INFO  Service:26 - method name:UploadFile
+2021-06-21 10:32:39 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@68403f9a
+2021-06-21 10:32:39 INFO  Service:26 - method name:UploadFile
+2021-06-21 10:32:39 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@68403f9a
+2021-06-21 10:32:39 INFO  Service:26 - method name:transferFile
+2021-06-21 10:32:39 INFO  Service:30 - D:\democsv\upload\addresses.csv
+2021-06-21 10:32:39 INFO  Service:26 - method name:UploadFile
+2021-06-21 10:32:39 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@68403f9a
+2021-06-21 10:32:39 INFO  Service:26 - method name:csvJson
+2021-06-21 10:32:39 INFO  Service:30 - D:\democsv\upload\addresses.csv
+2021-06-21 10:32:39 INFO  Service:26 - method name:DeleteFile
+2021-06-21 10:32:39 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@68403f9a
+2021-06-21 10:32:39 INFO  Service:26 - method name:listFile
+2021-06-21 14:06:36 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:06:36 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf85d5
+2021-06-21 14:06:36 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:06:36 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf85d5
+2021-06-21 14:06:36 INFO  Service:26 - method name:transferFile
+2021-06-21 14:06:36 INFO  Service:30 - D:\democsv\upload\persons.csv
+2021-06-21 14:06:37 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:06:37 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf85d5
+2021-06-21 14:06:37 INFO  Service:26 - method name:csvJson
+2021-06-21 14:06:37 INFO  Service:30 - D:\democsv\upload\persons.csv
+2021-06-21 14:06:37 INFO  Service:26 - method name:DeleteFile
+2021-06-21 14:06:37 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf85d5
+2021-06-21 14:06:37 INFO  Service:26 - method name:listFile
+2021-06-21 14:36:47 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:36:47 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@29b04121
+2021-06-21 14:36:47 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:36:47 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@29b04121
+2021-06-21 14:36:47 INFO  Service:26 - method name:transferFile
+2021-06-21 14:36:47 INFO  Service:30 - D:\democsv\upload\persons.csv
+2021-06-21 14:36:47 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:36:47 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@29b04121
+2021-06-21 14:36:47 INFO  Service:26 - method name:csvJson
+2021-06-21 14:36:47 INFO  Service:30 - D:\democsv\upload\persons.csv
+2021-06-21 14:36:47 INFO  Service:26 - method name:DeleteFile
+2021-06-21 14:36:47 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@29b04121
+2021-06-21 14:36:47 INFO  Service:26 - method name:listFile
+2021-06-21 14:44:12 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:44:12 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf85d5
+2021-06-21 14:44:12 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:44:12 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf85d5
+2021-06-21 14:44:12 INFO  Service:26 - method name:transferFile
+2021-06-21 14:44:12 INFO  Service:30 - D:\democsv\upload\addresses.csv
+2021-06-21 14:44:13 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:44:13 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf85d5
+2021-06-21 14:44:13 INFO  Service:26 - method name:csvJson
+2021-06-21 14:44:13 INFO  Service:30 - D:\democsv\upload\addresses.csv
+2021-06-21 14:44:13 INFO  Service:26 - method name:DeleteFile
+2021-06-21 14:44:13 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf85d5
+2021-06-21 14:44:13 INFO  Service:26 - method name:listFile
+2021-06-21 14:45:02 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:45:02 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@fcf3c2c
+2021-06-21 14:45:02 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:45:02 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@fcf3c2c
+2021-06-21 14:45:02 INFO  Service:26 - method name:transferFile
+2021-06-21 14:45:02 INFO  Service:30 - D:\democsv\upload\addresses.csv
+2021-06-21 14:45:02 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:45:02 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@fcf3c2c
+2021-06-21 14:45:02 INFO  Service:26 - method name:csvJson
+2021-06-21 14:45:02 INFO  Service:30 - D:\democsv\upload\addresses.csv
+2021-06-21 14:45:02 INFO  Service:26 - method name:DeleteFile
+2021-06-21 14:45:02 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@fcf3c2c
+2021-06-21 14:45:02 INFO  Service:26 - method name:listFile
+2021-06-21 14:54:09 INFO  Service:26 - method name:listFile
+2021-06-21 14:55:05 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:55:05 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@69c0f336
+2021-06-21 14:55:05 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:55:05 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@69c0f336
+2021-06-21 14:55:05 INFO  Service:26 - method name:transferFile
+2021-06-21 14:55:05 INFO  Service:30 - D:\democsv\upload\addresses.csv
+2021-06-21 14:55:05 INFO  Service:26 - method name:UploadFile
+2021-06-21 14:55:05 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@69c0f336
+2021-06-21 14:55:05 INFO  Service:26 - method name:csvJson
+2021-06-21 14:55:05 INFO  Service:30 - D:\democsv\upload\addresses.csv
+2021-06-21 14:55:05 INFO  Service:26 - method name:DeleteFile
+2021-06-21 14:55:05 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@69c0f336
+2021-06-21 14:55:05 INFO  Service:26 - method name:listFile
+2021-06-21 14:56:22 INFO  Service:26 - method name:listFile
+2021-06-21 14:56:45 INFO  Service:26 - method name:listFile
+2021-06-21 15:06:02 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:06:02 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e8dee3e
+2021-06-21 15:06:02 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:06:02 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e8dee3e
+2021-06-21 15:06:02 INFO  Service:26 - method name:transferFile
+2021-06-21 15:06:02 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:06:02 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:06:02 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e8dee3e
+2021-06-21 15:06:02 INFO  Service:26 - method name:csvJson
+2021-06-21 15:06:02 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:06:02 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:06:02 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1e8dee3e
+2021-06-21 15:06:02 INFO  Service:26 - method name:listFile
+2021-06-21 15:06:04 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:06:04 INFO  Service:30 - addresses.json
+2021-06-21 15:06:04 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:06:04 INFO  Service:30 - addresses.json
+2021-06-21 15:22:09 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:22:09 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7cd7f192
+2021-06-21 15:22:09 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:22:09 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7cd7f192
+2021-06-21 15:22:09 INFO  Service:26 - method name:transferFile
+2021-06-21 15:22:09 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:23:58 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:23:58 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7cd7f192
+2021-06-21 15:23:58 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:23:58 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7cd7f192
+2021-06-21 15:23:58 INFO  Service:26 - method name:transferFile
+2021-06-21 15:23:58 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:23:58 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:23:58 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7cd7f192
+2021-06-21 15:23:58 INFO  Service:26 - method name:csvJson
+2021-06-21 15:23:58 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:23:58 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:23:58 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7cd7f192
+2021-06-21 15:23:58 INFO  Service:26 - method name:listFile
+2021-06-21 15:27:43 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:27:43 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@422b000e
+2021-06-21 15:28:13 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:28:13 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1f11765a
+2021-06-21 15:28:13 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:28:13 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1f11765a
+2021-06-21 15:28:13 INFO  Service:26 - method name:transferFile
+2021-06-21 15:28:13 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:28:13 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:28:13 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1f11765a
+2021-06-21 15:28:13 INFO  Service:26 - method name:csvJson
+2021-06-21 15:28:13 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:28:13 INFO  Service:26 - method name:listFile
+2021-06-21 15:29:32 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:29:32 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@511c2ad5
+2021-06-21 15:29:32 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:29:32 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@511c2ad5
+2021-06-21 15:29:32 INFO  Service:26 - method name:transferFile
+2021-06-21 15:29:32 INFO  Service:30 - upload\persons.csv
+2021-06-21 15:29:32 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:29:32 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@511c2ad5
+2021-06-21 15:29:32 INFO  Service:26 - method name:csvJson
+2021-06-21 15:29:32 INFO  Service:30 - upload\persons.csv
+2021-06-21 15:29:32 INFO  Service:26 - method name:listFile
+2021-06-21 15:32:40 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:32:44 INFO  Service:26 - method name:init
+2021-06-21 15:32:44 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:32:44 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@45efe22f
+2021-06-21 15:32:44 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:32:44 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@45efe22f
+2021-06-21 15:32:44 INFO  Service:26 - method name:transferFile
+2021-06-21 15:32:44 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:32:44 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:32:44 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@45efe22f
+2021-06-21 15:32:44 INFO  Service:26 - method name:csvJson
+2021-06-21 15:32:44 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:32:44 INFO  Service:26 - method name:listFile
+2021-06-21 15:32:47 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:32:51 INFO  Service:26 - method name:init
+2021-06-21 15:32:51 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:32:51 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6fcb4d6a
+2021-06-21 15:32:51 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:32:51 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6fcb4d6a
+2021-06-21 15:32:51 INFO  Service:26 - method name:transferFile
+2021-06-21 15:32:51 INFO  Service:30 - upload\airtravel.csv
+2021-06-21 15:32:51 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:32:51 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6fcb4d6a
+2021-06-21 15:32:51 INFO  Service:26 - method name:csvJson
+2021-06-21 15:32:51 INFO  Service:30 - upload\airtravel.csv
+2021-06-21 15:32:51 INFO  Service:26 - method name:listFile
+2021-06-21 15:32:56 INFO  Service:26 - method name:init
+2021-06-21 15:33:00 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:33:03 INFO  Service:26 - method name:init
+2021-06-21 15:33:03 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:33:03 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@732f1daf
+2021-06-21 15:33:03 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:33:03 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@732f1daf
+2021-06-21 15:33:03 INFO  Service:26 - method name:transferFile
+2021-06-21 15:33:03 INFO  Service:30 - upload\persons.csv
+2021-06-21 15:33:03 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:33:03 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@732f1daf
+2021-06-21 15:33:03 INFO  Service:26 - method name:csvJson
+2021-06-21 15:33:03 INFO  Service:30 - upload\persons.csv
+2021-06-21 15:33:03 INFO  Service:26 - method name:listFile
+2021-06-21 15:38:52 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:38:58 INFO  Service:26 - method name:init
+2021-06-21 15:38:58 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:38:58 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@23a27a2f
+2021-06-21 15:38:58 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:38:58 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@23a27a2f
+2021-06-21 15:38:58 INFO  Service:26 - method name:transferFile
+2021-06-21 15:38:58 INFO  Service:30 - upload\persons.csv
+2021-06-21 15:38:58 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:38:58 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@23a27a2f
+2021-06-21 15:38:58 INFO  Service:26 - method name:csvJson
+2021-06-21 15:38:58 INFO  Service:30 - upload\persons.csv
+2021-06-21 15:38:58 INFO  Service:26 - method name:listFile
+2021-06-21 15:38:59 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:42:05 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:46:16 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:46:41 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:46:45 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:46:50 INFO  Service:26 - method name:init
+2021-06-21 15:46:50 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:46:50 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@45efe22f
+2021-06-21 15:46:50 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:46:50 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@45efe22f
+2021-06-21 15:46:50 INFO  Service:26 - method name:transferFile
+2021-06-21 15:46:50 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:46:50 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:46:50 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@45efe22f
+2021-06-21 15:46:50 INFO  Service:26 - method name:csvJson
+2021-06-21 15:46:50 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:46:50 INFO  Service:26 - method name:listFile
+2021-06-21 15:46:53 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:47:40 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:47:44 INFO  Service:26 - method name:init
+2021-06-21 15:47:44 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:47:44 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@535f8a6f
+2021-06-21 15:47:44 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:47:44 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@535f8a6f
+2021-06-21 15:47:44 INFO  Service:26 - method name:transferFile
+2021-06-21 15:47:44 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:47:44 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:47:44 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@535f8a6f
+2021-06-21 15:47:44 INFO  Service:26 - method name:csvJson
+2021-06-21 15:47:44 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:47:44 INFO  Service:26 - method name:listFile
+2021-06-21 15:47:55 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:48:07 INFO  Service:26 - method name:init
+2021-06-21 15:48:07 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:48:07 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1480b4b0
+2021-06-21 15:48:07 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:48:07 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1480b4b0
+2021-06-21 15:48:07 INFO  Service:26 - method name:transferFile
+2021-06-21 15:48:07 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:48:07 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:48:07 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@1480b4b0
+2021-06-21 15:48:07 INFO  Service:26 - method name:csvJson
+2021-06-21 15:48:07 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:48:07 INFO  Service:26 - method name:listFile
+2021-06-21 15:48:54 INFO  Service:26 - method name:listFile
+2021-06-21 15:49:16 INFO  Service:26 - method name:listFile
+2021-06-21 15:55:18 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:55:18 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:55:18 INFO  Service:30 - addresses.xml
+2021-06-21 15:57:37 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:57:38 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:57:45 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:57:45 INFO  Service:26 - method name:init
+2021-06-21 15:57:45 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:57:45 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5d8993a
+2021-06-21 15:57:45 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:57:45 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5d8993a
+2021-06-21 15:57:45 INFO  Service:26 - method name:transferFile
+2021-06-21 15:57:45 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:57:45 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:57:45 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5d8993a
+2021-06-21 15:57:45 INFO  Service:26 - method name:csvJson
+2021-06-21 15:57:45 INFO  Service:30 - upload\addresses.csv
+2021-06-21 15:57:45 INFO  Service:26 - method name:listFile
+2021-06-21 15:57:48 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:57:48 INFO  Service:30 - addresses.xml
+2021-06-21 15:57:48 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:57:48 INFO  Service:30 - addresses.xml
+2021-06-21 15:57:50 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:57:55 INFO  Service:26 - method name:DeleteFile
+2021-06-21 15:57:55 INFO  Service:26 - method name:init
+2021-06-21 15:57:55 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:57:55 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2228e52e
+2021-06-21 15:57:55 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:57:55 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2228e52e
+2021-06-21 15:57:55 INFO  Service:26 - method name:transferFile
+2021-06-21 15:57:55 INFO  Service:30 - upload\airtravel.csv
+2021-06-21 15:57:55 INFO  Service:26 - method name:UploadFile
+2021-06-21 15:57:55 INFO  Service:30 - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2228e52e
+2021-06-21 15:57:55 INFO  Service:26 - method name:csvJson
+2021-06-21 15:57:55 INFO  Service:30 - upload\airtravel.csv
+2021-06-21 15:57:55 INFO  Service:26 - method name:listFile
+2021-06-21 15:57:56 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:57:56 INFO  Service:30 - airtravel.xml
+2021-06-21 15:57:56 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:57:56 INFO  Service:30 - airtravel.xml
+2021-06-21 15:58:13 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:58:13 INFO  Service:30 - airtravel.json
+2021-06-21 15:58:13 INFO  Service:26 - method name:DownloadFile
+2021-06-21 15:58:13 INFO  Service:30 - airtravel.json

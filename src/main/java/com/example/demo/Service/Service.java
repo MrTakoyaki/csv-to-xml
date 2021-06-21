@@ -7,6 +7,7 @@ import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import org.springframework.util.FileCopyUtils;
+import org.springframework.util.FileSystemUtils;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
 
@@ -17,15 +18,17 @@ import java.util.List;
 
 @org.springframework.stereotype.Service
 public class Service {
+    Path UploadPath = Paths.get("upload");
+    Path DownloadPath = Paths.get("download");
 
     public File UploadFile(MultipartFile multipartFile) throws IOException {
-        Path path = Paths.get("D:\\democsv\\upload");
+
         try {
-            Files.copy(multipartFile.getInputStream(), path.resolve(multipartFile.getOriginalFilename()), StandardCopyOption.REPLACE_EXISTING);
+            Files.copy(multipartFile.getInputStream(), UploadPath.resolve(multipartFile.getOriginalFilename()), StandardCopyOption.REPLACE_EXISTING);
         } catch (FileAlreadyExistsException e) {
             e.printStackTrace();
         }
-        return new File(path + "\\" + multipartFile.getOriginalFilename());
+        return new File(UploadPath + "\\" + multipartFile.getOriginalFilename());
 
     }
 
@@ -33,7 +36,7 @@ public class Service {
     public JsonMapper csvJson(File input) throws IOException {
         String fileName = input.getName();
         String noExtension = fileName.substring(0, fileName.lastIndexOf("."));
-        File output = new File("D:\\democsv\\upload\\" + noExtension +".json");
+        File output = new File(DownloadPath + "\\" + noExtension + ".json");
         CsvMapper csvMapper = new CsvMapper();
         CsvSchema csvSchema = csvMapper
                 .typedSchemaFor(Vo.class)
@@ -53,7 +56,7 @@ public class Service {
     public XmlMapper transferFile(File input) throws IOException {
         String fileName = input.getName();
         String noExtension = fileName.substring(0, fileName.lastIndexOf("."));
-        File output = new File("D:\\democsv\\upload\\" + noExtension + ".xml");
+        File output = new File(DownloadPath + "\\" + noExtension + ".xml");
         CsvMapper csvMapper = new CsvMapper();
         CsvSchema csvSchema = csvMapper
                 .typedSchemaFor(Vo.class)
@@ -70,15 +73,27 @@ public class Service {
         return mapper;
     }
 
-    public void DeleteFile(MultipartFile input) {
-        String fileName = input.getOriginalFilename();
-        String noExtension = fileName.substring(0, fileName.lastIndexOf("."));
-        File path = new File("D:\\democsv\\upload\\" + noExtension + ".csv");
-        path.delete();
+    public void DeleteFile() {
+//        String fileName = input.getOriginalFilename();
+//        String noExtension = fileName.substring(0, fileName.lastIndexOf("."));
+//        File path = new File(UploadPath + "\\");
+//        path.delete();
+        FileSystemUtils.deleteRecursively(UploadPath.toFile());
+        FileSystemUtils.deleteRecursively(DownloadPath.toFile());
     }
 
+    public void init(){
+        try{
+            Files.createDirectory(UploadPath);
+            Files.createDirectory(DownloadPath);
+        }catch (IOException e){
+            throw  new RuntimeException("Could not initialize storage");
+        }
+    }
+
+
     public StreamingResponseBody DownloadFile(String filename) throws FileNotFoundException {
-        InputStream inputStream = new FileInputStream("D:\\democsv\\upload\\" + filename);
+        InputStream inputStream = new FileInputStream(DownloadPath + "\\" + filename);
         return outputStream -> FileCopyUtils.copy(inputStream, outputStream);
     }
 
@@ -101,7 +116,7 @@ public class Service {
 
     public List<String> listFile() {
         List<String> filenames = new ArrayList<>();
-        File file = new File("D:\\democsv\\upload\\");
+        File file = new File(DownloadPath.toString());
         File[] files = file.listFiles();
         assert files != null;
         for (File f : files) {

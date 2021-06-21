@@ -1,0 +1,146 @@
+<ArrayList>
+  <item>
+    <col1>JAN</col1>
+    <col2>  360</col2>
+    <col3>  417</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  340</col10>
+  </item>
+  <item>
+    <col1>FEB</col1>
+    <col2>  342</col2>
+    <col3>  391</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  318</col10>
+  </item>
+  <item>
+    <col1>MAR</col1>
+    <col2>  406</col2>
+    <col3>  419</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  362</col10>
+  </item>
+  <item>
+    <col1>APR</col1>
+    <col2>  396</col2>
+    <col3>  461</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  348</col10>
+  </item>
+  <item>
+    <col1>MAY</col1>
+    <col2>  420</col2>
+    <col3>  472</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  363</col10>
+  </item>
+  <item>
+    <col1>JUN</col1>
+    <col2>  472</col2>
+    <col3>  535</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  435</col10>
+  </item>
+  <item>
+    <col1>JUL</col1>
+    <col2>  548</col2>
+    <col3>  622</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  491</col10>
+  </item>
+  <item>
+    <col1>AUG</col1>
+    <col2>  559</col2>
+    <col3>  606</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  505</col10>
+  </item>
+  <item>
+    <col1>SEP</col1>
+    <col2>  463</col2>
+    <col3>  508</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  404</col10>
+  </item>
+  <item>
+    <col1>OCT</col1>
+    <col2>  407</col2>
+    <col3>  461</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  359</col10>
+  </item>
+  <item>
+    <col1>NOV</col1>
+    <col2>  362</col2>
+    <col3>  390</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  310</col10>
+  </item>
+  <item>
+    <col1>DEC</col1>
+    <col2>  405</col2>
+    <col3>  432</col3>
+    <col4/>
+    <col5/>
+    <col6/>
+    <col7/>
+    <col8/>
+    <col9/>
+    <col10>  337</col10>
+  </item>
+</ArrayList>

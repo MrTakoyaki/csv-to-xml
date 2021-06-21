@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css?v=<?=time()?>">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
@@ -49,6 +50,12 @@
         </tbody>
     </ul>
 </table>
+
+
+<form method="get" action="/HomePage"><br>
+    <input type="submit" value="回首頁" class="btn btn-info" style="margin-left: 80%;">
+</form>
+
 
 </body>
 

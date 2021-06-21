@@ -30,6 +30,7 @@ public class Controller {
 
     @GetMapping("/HomePage")
     public String index() {
+        service.DeleteFile();
         return "HomePage";
     }
 
@@ -40,11 +41,11 @@ public class Controller {
         String fileName = StringUtils.cleanPath(multipartFile.getOriginalFilename());
         String extension = fileName.substring(fileName.lastIndexOf(".")+1);
         if (extension.equals("csv")) {
-
+            service.DeleteFile();
+            service.init();
             service.UploadFile(multipartFile);
             service.transferFile(service.UploadFile(multipartFile));
             service.csvJson(service.UploadFile(multipartFile));
-            service.DeleteFile(multipartFile);
         }
         else{
             errorMsg.add("請上傳.csv檔");

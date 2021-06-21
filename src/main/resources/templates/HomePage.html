@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css?v=<?=time()?>">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
@@ -16,15 +17,21 @@
 </nav>
 
 
-<p class="h2">檔案上傳</p>
+<p class="h2">移民署大數據分析與應用建置案-轉檔程式</p>
 
 <div class="main">
+<!--    <form method="post" action="/UploadFile" enctype="multipart/form-data">-->
+<!--        <div class="custom-file" style="width: 45%;">-->
+<!--        <input type="file" name="file" class="custom-file-input" id="customFile">-->
+<!--        <label class="custom-file-label" for="customFile">Choose file</label>-->
+<!--        <input type="submit" value="送出" class="btn btn-info" style="margin-top: 5%; margin-left: 90%;">-->
+<!--        </div>-->
+<!--    </form>-->
+
     <form method="post" action="/UploadFile" enctype="multipart/form-data">
-        <div class="custom-file" style="width: 45%;">
-        <input type="file" name="file" class="custom-file-input" id="customFile">
-        <label class="custom-file-label" for="customFile">Choose file</label>
-        <input type="submit" value="送出" class="btn btn-info" style="margin-top: 5%; margin-left: 90%;">
-        </div>
+        <label for="customFile">請選擇.csv副檔名檔案 :</label><br>
+        <input type="file" name="file"  id="customFile"><br><br>
+        <input type="submit" value="開始轉檔">
     </form>
 </div>
 <div class="errorMsg">
