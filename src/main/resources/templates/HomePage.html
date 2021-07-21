@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css?v=<?=time()?>">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/Style.css}" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-light" style="background-color: #17a2b8;">
+    <a class="navbar-brand">Navbar</a>
+</nav>
+
+
+<p class="h2">移民署大數據分析與應用建置案-轉檔程式</p>
+
+<div class="main">
+<!--    <form method="post" action="/UploadFile" enctype="multipart/form-data">-->
+<!--        <div class="custom-file" style="width: 45%;">-->
+<!--        <input type="file" name="file" class="custom-file-input" id="customFile">-->
+<!--        <label class="custom-file-label" for="customFile">Choose file</label>-->
+<!--        <input type="submit" value="送出" class="btn btn-info" style="margin-top: 5%; margin-left: 90%;">-->
+<!--        </div>-->
+<!--    </form>-->
+
+    <form name="upload" method="post" action="/UploadFile" enctype="multipart/form-data">
+        <label for="customFile">請選擇.csv副檔名檔案 :</label><br>
+        <input type="file" name="file" id="customFile"><br><br>
+        <input type="hidden" id="timeId" name="time">
+        <input type="submit" value="開始轉檔">
+    </form>
+</div>
+<div class="errorMsg">
+<ul th:each="errorCode : ${errorMsg}">
+    <p style="color: red" th:text="${errorCode}"></p>
+</ul>
+</div>
+
+<script type="text/javascript">
+
+    var time = new Date()
+    $("#timeId").val(time.getTime());
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css?v=<?=time()?>">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <link th:href="@{/Style.css}" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<nav class="navbar navbar-light" style="background-color: #17a2b8;">
+    <a class="navbar-brand">Navbar</a>
+</nav>
+
+<p class="h2">檔案下載</p>
+
+<table class="table" style="width: 50%; margin-left: 25%;">
+    <ul th:each="name : ${list}">
+        <tbody>
+        <tr>
+            <td>
+                <p th:text="${name}" style="margin-left: 2%;"></p>
+                <input type="hidden" th:value="${time}" id="time">
+                <input type="button" th:id="${name}" onclick="
+        javascript:
+
+        var name = event.target.id;
+        var time = $('#time').val();
+        console.log(time);
+        var url = '/DownloadFile/'+time+'/'+name;
+
+        $.ajax({
+            url: url,
+			type: 'GET',
+            data: name,
+            success: function (response){
+                window.location.href= url;
+            }
+        });
+        " value="下載" class="btn btn-info" style="margin-left: 90%;">
+
+            </td>
+        </tr>
+        </tbody>
+    </ul>
+</table>
+
+
+<form method="get" action="/HomePage"><br>
+    <input type="submit" value="回首頁" class="btn btn-info" style="margin-left: 80%;">
+</form>
+
+
+</body>
+
+</html>
